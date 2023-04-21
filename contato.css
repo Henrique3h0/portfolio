@@ -1,0 +1,208 @@
+:root {
+    --preto-carbono: #333333;
+    --prata: #c0c0c0;
+    --azul-escuro: #00008b;
+    --dourado: #ffd700;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+input {
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 2.5s forwards;
+}
+
+body {
+    background: linear-gradient(to bottom right, var(--prata), var(--preto-carbono));
+    color: var(--prata);
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 0;
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 1s forwards;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--preto-carbono);
+    color: var(--prata);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button[type="submit"] {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--preto-carbono);
+    color: var(--dourado);
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--dourado);
+    color: var(--preto-carbono);
+}
+
+/* Estilos para a página de contato */
+.content {
+    flex-basis: 75%;
+    animation: slide-in 1.5s forwards;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 1.5s forwards;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, var(--azul-escuro), var(--preto-carbono));
+    color: var(--prata);
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 2.5s forwards;
+}
+
+.menu {
+    flex-basis: 20%;
+    margin-right: 20px;
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 2.5s forwards;
+}
+
+.menu h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 2.5s forwards;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 1.8s forwards;
+}
+
+.menu li {
+    margin-bottom: 10px;
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 2.5s forwards;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 2.5s forwards;
+}
+
+.content {
+    flex-basis: 75%;
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 1.5s forwards;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 1.5s forwards;
+}
+
+
+.projeto {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom right, var(--preto-carbono), var(--prata));
+    position: relative;
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 1.5s forwards;
+    animation: float 5s ease-in-out infinite;
+}
+
+.projeto img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 10px;
+    transition: background-color 0.5s, color 0.5s;
+    animation: slide-in 1.8s forwards;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-10px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .menu {
+        margin-right: 0;
+        margin-bottom: 20px;
+        flex-basis: 100%;
+    }
+
+    .content {
+        flex-basis: 100%;
+    }
+}
