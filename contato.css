@@ -78,6 +78,12 @@ button[type="submit"]:hover {
     color: var(--preto-carbono);
 }
 
+li:hover {
+    background: #2ecc71;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
 /* Estilos para a página de contato */
 .content {
     flex-basis: 75%;

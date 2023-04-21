@@ -1,1 +1,46 @@
-{"projetos":[{"titulo":"CALCULADORA RENDA FIXA","descricao":"Uma calculadora de renda fixa, em estilo simples ou composto. Se baseia apenas no juros e no imposto, n\u00e3o leva em considera\u00e7\u00e3o outros fatores","tecnologias":["PHP"," HTML"," JS"],"imagem":"imagens\/Captura de tela 2023-03-09 212916.png","github":"https:\/\/github.com\/Henrique3h0\/calc-renda-fixa"},{"titulo":"SDK MP PIX","descricao":"Um SDK hardcode, desenvolvido em PHP para efetuar cria\u00e7\u00e3o de QRcodes e testar se o status de pagamento na API do mercado pago","tecnologias":["PHP"],"imagem":"imagens\/0001-17751593658_20210303_193129_0000-compressed.jpg","github":"https:\/\/github.com\/Henrique3h0\/API-PIX"},{"titulo":"NAN DETECTOR (roblox)","descricao":"Um detector do bug \"NAN\" em um place da plataforma roblox, o bug consistia em corromper o valor do \"money\" assim podendo efetuar compras sem limite na place, esse script serviu para detectar os usuarios que estavam com valores corrompidos","tecnologias":["LUA"],"imagem":"imagens\/download.jfif","github":"https:\/\/github.com\/Henrique3h0\/NAN-detector"},{"titulo":"FINAN\u00c7AS DASHBOARD","descricao":"Um dashboard financeiro desenvolvido com JS, PHP, HTML, CSS e CHARTjs \u00e9 uma ferramenta visual altamente interativa que ajuda a gerenciar e analisar dados financeiros de forma eficiente e em tempo real.\r\n\r\nO dashboard exibe informa\u00e7\u00f5es importantes sobre o desempenho financeiro de uma organiza\u00e7\u00e3o, incluindoe tabelas que mostram informa\u00e7\u00f5es de suas finan\u00e7as.\r\n\r\nO dashboard tamb\u00e9m apresenta uma interface intuitiva e f\u00e1cil de usar, \u00e9 poss\u00edvel acessar dados detalhados em cada item do gr\u00e1fico.\r\n\r\nCom esse dashboard financeiro, \u00e9 poss\u00edvel fazer an\u00e1lises financeiras avan\u00e7adas, identificar tend\u00eancias e padr\u00f5es de neg\u00f3cios, e tomar decis\u00f5es mais informadas e estrat\u00e9gicas em tempo real.","tecnologias":["PHP"," JS"," CSS"," HTML"," JSON"],"imagem":"imagens\/Captura de tela 2023-03-12 173301.png","github":"https:\/\/github.com\/Henrique3h0\/Financas-dashboard"},{"titulo":"000","descricao":"000","tecnologias":["000"],"imagem":["imagens\/1.jpg","imagens\/1102753.png"]}]}
+{
+    "projetos": [
+        {
+            "titulo": "CALCULADORA RENDA FIXA",
+            "descricao": "Uma calculadora de renda fixa, em estilo simples ou composto. Se baseia apenas no juros e no imposto, n\u00e3o leva em considera\u00e7\u00e3o outros fatores",
+            "tecnologias": [
+                "PHP",
+                " HTML",
+                " JS"
+            ],
+            "imagem": "imagens\/Captura de tela 2023-03-09 212916.png",
+            "github": "https:\/\/github.com\/Henrique3h0\/calc-renda-fixa"
+        },
+        {
+            "titulo": "SDK MP PIX",
+            "descricao": "Um SDK hardcode, desenvolvido em PHP para efetuar cria\u00e7\u00e3o de QRcodes e testar se o status de pagamento na API do mercado pago",
+            "tecnologias": [
+                "PHP"
+            ],
+            "imagem": "imagens\/0001-17751593658_20210303_193129_0000-compressed.jpg",
+            "github": "https:\/\/github.com\/Henrique3h0\/API-PIX"
+        },
+        {
+            "titulo": "NAN DETECTOR (roblox)",
+            "descricao": "Um detector do bug \"NAN\" em um place da plataforma roblox, o bug consistia em corromper o valor do \"money\" assim podendo efetuar compras sem limite na place, esse script serviu para detectar os usuarios que estavam com valores corrompidos",
+            "tecnologias": [
+                "LUA"
+            ],
+            "imagem": "imagens\/download.jfif",
+            "github": "https:\/\/github.com\/Henrique3h0\/NAN-detector"
+        },
+        {
+            "titulo": "FINAN\u00c7AS DASHBOARD",
+            "descricao": "Um dashboard financeiro desenvolvido com JS, PHP, HTML, CSS e CHARTjs \u00e9 uma ferramenta visual altamente interativa que ajuda a gerenciar e analisar dados financeiros de forma eficiente e em tempo real.\r\n\r\nO dashboard exibe informa\u00e7\u00f5es importantes sobre o desempenho financeiro de uma organiza\u00e7\u00e3o, incluindoe tabelas que mostram informa\u00e7\u00f5es de suas finan\u00e7as.\r\n\r\nO dashboard tamb\u00e9m apresenta uma interface intuitiva e f\u00e1cil de usar, \u00e9 poss\u00edvel acessar dados detalhados em cada item do gr\u00e1fico.\r\n\r\nCom esse dashboard financeiro, \u00e9 poss\u00edvel fazer an\u00e1lises financeiras avan\u00e7adas, identificar tend\u00eancias e padr\u00f5es de neg\u00f3cios, e tomar decis\u00f5es mais informadas e estrat\u00e9gicas em tempo real.",
+            "tecnologias": [
+                "PHP",
+                " JS",
+                " CSS",
+                " HTML",
+                " JSON"
+            ],
+            "imagem": "imagens\/Captura de tela 2023-03-12 173301.png",
+            "github": "https:\/\/github.com\/Henrique3h0\/Financas-dashboard"
+        }
+    ]
+}
